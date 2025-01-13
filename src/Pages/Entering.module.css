@@ -1,0 +1,55 @@
+.entering{
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    text-align: center;
+    border: 50px solid #B0BEC5;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    width: 600px;
+    height: 300px;
+}
+
+.title{
+  font-size: 2.5rem;
+  color: hsl(200, 15%, 23%);
+}
+
+.information{
+  padding: 10px;
+  border: 2px solid hsla(0,0%,80%,0.5);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: hsl(200, 15%, 23%);
+  
+}
+
+.signin{
+  background-color: #81D4FA;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 10px 50px;
+  margin-top: 20px;
+  color: hsl(200, 15%, 23%);
+  border:none;
+  border-radius: 5px;
+  cursor:pointer;
+  transition: background-color 0.5 ease;
+}
+
+.signin-button:hover{
+  background-color: hsla(0, 0%, 300px, 0.825);
+  color: white;
+}
+
+.footer{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left:50%;
+  transform:translateX(-50%);
+}
