@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
 .footer{
     font-family: Arial, sans-serif;
     text-align: center;
@@ -16,6 +18,7 @@
     z-index: 10; /* Ensure it stays above other elements */
     display:flex;
     align-items: center;
+    position: fixed;
   }
   
   .top h1{
@@ -37,9 +40,40 @@
     color: #81D4FA;
   }
 
-  .qbox{
-    border: 10px solid black;
-    border-radius: 10px;
-    height: 900px;
-    margin: 20px 20px;
+  .pic{
+    height: 300px;
+    width: 350px;
+    border-radius: 50%;
+    display: block;
+    margin: 0px auto;
+    margin-top: 10px;
+  }
+  .teacher{
+    border: 2px solid saddlebrown;
+    border-radius: 2px;
+    max-width: 500px;
+    margin: 30px;
+    flex: 2;
+    position: fixed;
+    overflow-y:auto;
+  }
+  .detail {
+    font-family: "Poppins";
+  }
+  .welcome{
+    font-size:22px;
+    text-align: center;
+  }
+  .question{
+    flex: 1;
+    max-width: 60%;
+    margin-left: 600px;
+  }
+
+  .content{
+    margin-top: 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
   }

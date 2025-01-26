@@ -4,7 +4,6 @@ import styles from "./Top.module.css"
 function Top(){
     return(
         <>
-        <div className={styles.top1}></div>
         <div className={styles.topcolumn}>
             <div className={styles.dropdown}>
                 <button className={styles.dropbtn}>All</button>

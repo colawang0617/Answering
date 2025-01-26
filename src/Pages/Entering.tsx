@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import styles from './Entering.module.css';
+import Navbar from "../Components/Navbar";
 
 function Entering(){
 
@@ -11,11 +12,19 @@ function Entering(){
 
     return(
         <>
+        <Navbar/>
         <div className={styles.entering}>
             <h1 className={styles.title}>Menaul School Qingdao</h1>
-            <input type="text" placeholder="Username" className={styles.information}></input>
+            <input 
+                type="text"
+                placeholder="Username" 
+                className={styles.information}>
+            </input>
             <br></br>
-            <input type="text" placeholder="Passward" className={styles.information}>
+            <input 
+                type="text"
+                placeholder="Passward" 
+                className={styles.information}>
             </input>
             <br></br>
             <button className={styles.signin} onClick={handleClick}>Sign In</button>

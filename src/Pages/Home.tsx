@@ -1,6 +1,8 @@
 import styles from "./Home.module.css"
 import Card1 from "../Components/Card1";
 import Top from "../Components/Top";
+import Profile from "../Components/Profile";
+import Navbar from "../Components/Navbar"
 import image1 from "../assets/calculus.jpg"
 import image2 from "../assets/arthistory.jpg"
 import image3 from "../assets/physics.jpg"
@@ -26,6 +28,7 @@ function Home() {
   return (
     <>
     <div className={styles.home}>
+      <Navbar/>
       <Top/>  
       <div>
         {cards.map((card) => (

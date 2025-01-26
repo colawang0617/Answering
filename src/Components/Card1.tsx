@@ -5,8 +5,10 @@ function Card1(props){
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate(`/Home/${props.id}`,{state: {course: props.course}});
-    }
+        navigate(`/Home/${props.id}`,{
+            state: {course: props.course},
+        });
+    };
     return(
         <>
         <div className={styles.course} onClick={handleClick}>
