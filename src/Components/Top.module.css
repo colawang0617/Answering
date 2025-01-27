@@ -4,7 +4,6 @@
         min-width: 600px;
         width: 100%;
         margin: 10px auto 20px;
-        position: relative;
         display: flex;
         align-items: center;
         gap: 50px;
@@ -12,6 +11,7 @@
         border-radius: 10px;
         padding: 10px;
         background-color: white;
+        position: relative;
 }
 
 .dropdown{
@@ -19,43 +19,56 @@
         display: inline-block;
 }
 
-.dropdown:hover .dropcnt{
-        display: block;
-}
-
 .dropbtn{
-        background-color: white;
+        background-color: white ;
         font-family: Arial, sans-serif;
-        font-size: 16px;
+        font-weight:bold;
+
+        font-size: 17px;
+        height: 30px;
         width: 100px;
         cursor: pointer;
         border: 1px solid hsl(0, 0%, 80%);
         border-radius: 5px;
         box-sizing: border-box;
         outline: none;
-        margin: 5cqh;
-        padding: 10px;
+        margin-bottom: 0px;
+        margin-left: 50px;
 }
+
 
 
 .dropcnt{
-        display: none;
         position: absolute;
+        top: calc(100%+3px);
+        left: 50px;
         background-color: #f9f9f9;
-        min-width: 160px;
+        font-size: 16px;
+        width: auto;
+        border: 1px solid hsl(0, 0%, 80%);
+        border-radius: 5px;
+        list-style: none;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
+        z-index: 100;
+        padding: 5px 0;
+        flex-direction: column;
 }
 
-.dropcnt p{
-        color:black;
+.dropcnt button{
+        text-decoration-color: hsl(200, 15%, 23%);
         padding: 12px 16px;
         text-decoration: none;
-        display: block;
+        display: flex;
+        width: 100%;
+        min-width: 100px;
+        justify-content: center;
+        cursor: pointer;
+        border: 0;
+        background: none;
 }
 
-.dropcnt p:hover{
-        background-color: #f1f1f1;
+.dropcnt button:hover{
+        background-color: #ddd;
 }
 
 .search{
