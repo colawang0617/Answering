@@ -1,20 +1,20 @@
 import { useNavigate, } from 'react-router-dom';
-import styles from './Card1.module.css'
+import styles from './Styles/Card1.module.css'
 
-function Card1(props){
+export default function Card1({id,image,course,subtitle}){
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate(`/Home/${props.id}`,{
-            state: {course: props.course},
+        navigate(`/Home/${id}`,{
+            state: {course: course},
         });
     };
     return(
         <>
         <div className={styles.course} onClick={handleClick}>
-            <img src={props.image} alt={props.course} className={styles.pic}></img>
-            <h2>{props.course}</h2>
-            <p>{props.subtitle}</p>
+            <img src={image} alt={course} className={styles.pic}></img>
+            <h2>{course}</h2>
+            <p>Teacher: {subtitle}</p>
         </div>
         </>
     );
@@ -22,9 +22,7 @@ function Card1(props){
 
 Card1.defaultProps = {
     image: '',
-    course: "unknown",
-    subtitle: "unknown",
+    course: "TBA",
+    subtitle: "TBD",
     id:null,
 }
-
-export default Card1

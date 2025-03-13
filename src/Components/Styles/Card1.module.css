@@ -3,7 +3,8 @@
     border-radius: 10px;
     box-shadow: 5px 5px 5px hsla(0,0%,0%,0.1);
     padding: 0px;
-    margin:20px auto;
+    margin-top:20px;
+    margin-left: 20%;
     align-items: center;
     display: flex;
     flex-direction: column;
