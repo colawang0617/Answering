@@ -7,7 +7,6 @@
   width: 100vw;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 }
 
 .title{
@@ -69,7 +68,13 @@ button:hover{
 input{
   font-family: 'Lora', sans-serif;
   margin-left: 10px;
+  min-width: 50%;
   border: none;
+  outline: none;
+}
+
+input::placeholder{
+  font-size: 110%;
 }
 
 .icon{

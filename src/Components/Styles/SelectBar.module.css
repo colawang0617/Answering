@@ -1,0 +1,71 @@
+
+
+.selectBar{
+    background-color: #A9B5DF;
+    border: black solid;
+    border-radius: 30px;
+    height: 70px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.leftbutton{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+.kind{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 200px;
+    height: 70px;
+}
+.kindButton{
+    position: relative;
+    border-right: black solid 1px;
+    border-radius: 0;
+    height: 70px;
+    width: 100%;
+    font-size: 20px;
+    margin: 0;
+}
+.kindButton1{
+    position: relative;
+    border-right: black solid 1px;
+    border-radius: 0;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 70px;
+    width: 200%;
+    font-size: 20px;
+    margin: 0;
+}
+.arrow{
+    margin: 0;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    z-index: 2;
+    left: 75%;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.searchInput{
+    width: 206px;
+    height: 51px;
+    margin-right: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.searchIcon{
+    width: 35px;
+    height: 35px;
+}

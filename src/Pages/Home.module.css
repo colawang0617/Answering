@@ -1,12 +1,5 @@
 .home{
-    background-color: hsl(200, 15%, 83%);
+    height: auto;
+    width: 100vw;
+    background-color: #fff2f2;
 }
-
-.footer{
-    font-family: Arial, sans-serif;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    left:50%;
-    transform:translateX(-50%);
-  }

@@ -1,4 +1,4 @@
-import styles from './Profile.module.css'
+import styles from './Styles/Profile.module.css'
 import Cola from '../assets/Cola.jpeg'
 
 function Profile(){

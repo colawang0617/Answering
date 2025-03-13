@@ -27,27 +27,26 @@ function Entering(){
             <img src={Answering} className={styles.title} />
             <div className={styles.userbox}>
                 <h1>Welcome Menauler!</h1>
-                <div className={styles.userinput}>
+                <label className={styles.userinput}>
                     <img src={Username} className={styles.icon}/>
                     <input 
                         type="text"
                         placeholder="Enter your username"
                         onChange={(e) => {
                             setUsername(e.target.value); 
-                        }}>
-                            
+                        }}>      
                     </input>
-                </div>
-                <div className={styles.userinput}>
+                </label>
+                <label className={styles.userinput}>
                     <img src={Password} className={styles.icon}/>
                     <input 
-                        type="text"
+                        type="password"
                         placeholder="Enter your passward"
                         onChange={(e) => {
                             setPassward(e.target.value); 
                         }}>
                     </input>
-                </div>
+                </label>
                 <button onClick={() => handleClick(username,passward)}>Sign In</button>
             </div>
             <footer className={styles.footer}>

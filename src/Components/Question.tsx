@@ -1,4 +1,4 @@
-import styles from './Question.module.css'
+import styles from './Styles/Question.module.css'
 import { useNavigate } from 'react-router-dom'
 
 function Question(props){

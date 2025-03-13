@@ -1,0 +1,36 @@
+.fixheader{
+    border-bottom: #dddddd solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    background-color: #fff2f2;
+    margin: 20px;
+    border: black solid;
+}
+
+.right{
+    background-color: #fff2f2;
+    margin: 20px;
+    border: black solid;
+}
+
+.menu{
+    width: 50px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.notification{
+    width: 50px;
+}
+.column{
+    height: 50px;
+}
+.setting{
+    width: 50px;
+}
