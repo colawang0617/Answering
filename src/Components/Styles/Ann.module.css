@@ -1,3 +1,17 @@
 .container{
-    border: black 1px;
+    border: black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 26%;
+    height: auto;
+    position: absolute;
+    left: 60%;
+    margin-left: 50px;
+    padding: 0;
+    border-radius: 10px;
+}
+.container h1{
+    margin-top: 22px;
 }
