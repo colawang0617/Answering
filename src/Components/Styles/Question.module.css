@@ -1,7 +1,12 @@
 .question{
-    background-color: bisque;
-    border-radius: 4px;
-    padding: 20px;
-    box-shadow: 2px 2px 5px black;
-    margin:10px;
+    border-bottom: 1px solid black;
+    width: 607px;
+    height: 112px;
+    text-align: center;
+    display: block;
+    margin: 30px;
+    cursor: pointer;
+}
+.question :hover{
+    border: 1px solid black;
 }

@@ -10,10 +10,8 @@ function Question(props){
     return (
         <>
         <div className={styles.question} onClick={handleClick}>
-            <h4>{props.Title}</h4>
-            <p><strong>id:</strong> {props.id}</p>
-            <p><strong>description</strong> {props.description}</p>
-            <p><strong>time:</strong> {props.time}</p>
+            <h4>This is a very good question</h4>
+            <p>dit nisl. Aliquam rhoncus convallis lectus id faucibus. Mauris pretium tincidunt rhoncus. Praesent nec enim nec massa suscipit congue. Fusce eget pharetra justo. In ut varius neque.</p>
         </div>
         </>
     )

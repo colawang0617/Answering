@@ -36,6 +36,9 @@ export default function SelectBar(){
         }
     }
 
+    const imgClick = () => {
+        console.log("hello");
+    }
     return(
         <>
         <div className={style.selectBar}>
@@ -76,7 +79,7 @@ export default function SelectBar(){
                     placeholder='Please enter your search'
                     className={style.searchInput}
                 />
-                <img src={searchIcon} alt='searchIcon' className={style.searchIcon}/>
+                <img src={searchIcon} alt='searchIcon' className={style.searchIcon} onClick={imgClick}/>
             </div>
             <button>Reset</button>
         </div>

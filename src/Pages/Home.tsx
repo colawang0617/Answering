@@ -12,7 +12,9 @@ export default function Home(){
         <>
             <div className={style.home}>
                 <Header/>
-                <SelectBar/>
+                <div className={style.selectBar}>
+                    <SelectBar/>
+                </div>
                 <div className={style.course}>
                     <Ann/>
                     {courseData.map((courseData) => (

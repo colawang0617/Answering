@@ -1,0 +1,29 @@
+body{
+    background-color: #fff2f2;
+}
+.courseDescription{
+    background-color: white;
+    width: 420px;
+    height: 500px;
+    border-radius: 23px;
+    margin: 25px;
+}
+.coursePicture{
+
+}
+.picture{
+    height: 200px;
+    width: 250px;
+    border-radius: 50%;
+}
+.rightContainer{
+    position: absolute;
+    top: 0;
+}
+.question{
+    margin-left: 50%;
+}
+.selectBar{
+    margin-top: 10%;
+    margin-left: 25%;
+}
